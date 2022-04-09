@@ -9,6 +9,7 @@ public class Main {
         System.out.println(saveThePrisoner(7,19,2));
     }
 
+    // Complete the saveThePrisoner function below.
     static int saveThePrisoner(int n, int m, int s) {
         // prisoners 7
         // candys 19
@@ -24,14 +25,5 @@ public class Main {
         else{
             return maradek;
         }
-
-
-
-
-
-
-
     }
-
-
 }

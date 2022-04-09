@@ -28,8 +28,9 @@ public class Main {
         double m = (double)minus/arr.length;
         double p = (double)plus/arr.length;;
         double z = (double)zero/arr.length;;
-        System.out.println(String.format("%.5f", m));
-        System.out.println(String.format("%.5f", p));
-        System.out.println(String.format("%.5f", z));
+        System.out.println(String.format("%.6f", p));
+        System.out.println(String.format("%.6f", m));
+        System.out.println(String.format("%.6f", z));
+
     }
 }

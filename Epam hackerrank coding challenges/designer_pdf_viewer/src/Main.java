@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[]args){
 
     }
+    // Complete the designerPdfViewer function below.
     static int designerPdfViewer(int[] h, String word) {
         char[] a = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o',  'p',  'q',  'r',  's',  't',  'u',  'v',  'w', 'x'
                 ,'y',  'z'};
@@ -20,6 +21,5 @@ public class Main {
             }
         }
         return max*word.length();
-
     }
 }

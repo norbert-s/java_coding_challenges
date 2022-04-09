@@ -15,7 +15,8 @@ public class Main {
 //        repeatedString(a,3);
         System.out.println(3/0.15);
     }
-    public static long repeatedString(String s, long n) {
+    // Complete the repeatedString function below.
+    static long repeatedString(String s, long n) {
         long akAzAlapstringben =0;
         long akAMaradekban =0;
         long osztas = 0;
@@ -33,7 +34,9 @@ public class Main {
         long osszeg = osztas*akAzAlapstringben+akAMaradekban;
 
         return osszeg;
+
     }
+
 
 //    public static void repeatedstring(String s, long n){
 //        long count =0;

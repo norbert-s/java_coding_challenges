@@ -9,6 +9,7 @@ public class Main {
         System.out.println(beautifulDays(13,45,3));
     }
 
+    // Complete the beautifulDays function below.
     static int beautifulDays(int i, int j, int k) {
         int count =0;
         for(int a=i;a<=j;a++){

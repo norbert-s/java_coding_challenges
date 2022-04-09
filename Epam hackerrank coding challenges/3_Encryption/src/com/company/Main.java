@@ -37,6 +37,5 @@ class Main {
     public static void main(String[] args) throws IOException {
         String s = "if man was meant to stay on the ground god would have given us roots";
         encryption(s);
-
     }
 }

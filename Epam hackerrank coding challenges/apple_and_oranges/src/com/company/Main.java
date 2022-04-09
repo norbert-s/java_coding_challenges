@@ -7,6 +7,7 @@ public class Main {
 
     }
 
+    // Complete the countApplesAndOranges function below.
     static void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges) {
         int ca = 0;
         int co = 0;

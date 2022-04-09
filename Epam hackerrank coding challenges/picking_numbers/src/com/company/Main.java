@@ -1,4 +1,4 @@
-package com.company;
+package picking_numbers.src.com.company;
 
 public class Main {
 

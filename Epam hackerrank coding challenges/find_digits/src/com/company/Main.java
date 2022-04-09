@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
     }
+    // Complete the findDigits function below.
     static int findDigits(int n) {
         String a = Integer.toString(n);
         String [] b = a.split("");

@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
     }
+    // Complete the catAndMouse function below.
     static String catAndMouse(int x, int y, int z) {
         int catA = Math.abs(z-x);
         int catB = Math.abs(z-y);
@@ -17,4 +18,7 @@ public class Main {
         else  {
             return "Cat B";
         }
+
+
+    }
 }

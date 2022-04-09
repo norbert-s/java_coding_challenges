@@ -20,16 +20,20 @@ public class Main {
 
         System.out.println(migratoryBirds(arr));
     }
+    // Complete the migratoryBirds function below.
     static int migratoryBirds(List<Integer> arr) {
         TreeSet<Integer> a = new TreeSet<Integer>();
+
         for(int i=0;i<arr.size();i++){
             a.add(arr.get(i));
         }
+
         ArrayList<Integer> b = new ArrayList<>();
         int max = 0;
         Iterator aa = a.iterator();
         while(aa.hasNext()){
             int count =0;
+
             int szam = (int)aa.next();
             for(int j=0;j<arr.size();j++){
                 if(arr.get(j)==szam){
@@ -49,6 +53,7 @@ public class Main {
         int flag = 0;
         while(bb.hasNext()){
             int ezt =(int) bb.next();
+
             if(ezt==max){
                 flag = counter;
                 break;
@@ -59,6 +64,7 @@ public class Main {
         aa = a.iterator();
         while(aa.hasNext()){
             int szam = (int)aa.next();
+
             if(counter==flag){
                 ret = szam;
             }

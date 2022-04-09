@@ -7,10 +7,10 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        int [] a = {1,2,3,2,1,3,3};
-        System.out.println(equalizeArray(a));
+
     }
 
+    // Complete the equalizeArray function below.
     static int equalizeArray(int[] arr) {
         Set<Integer> nums =new TreeSet<Integer>();
         int max =0;
@@ -28,7 +28,7 @@ public class Main {
                 }
             }
             if(countCurrent>max){
-               max = countCurrent;
+                max = countCurrent;
             }
         }
         int result = arr.length-max;

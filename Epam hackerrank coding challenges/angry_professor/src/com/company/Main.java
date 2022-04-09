@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
     }
+    // Complete the angryProfessor function below.
     static String angryProfessor(int k, int[] a) {
         int cp =0;
         int cm=0;

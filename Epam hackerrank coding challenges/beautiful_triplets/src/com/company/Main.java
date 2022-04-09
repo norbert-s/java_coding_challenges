@@ -6,6 +6,7 @@ public class Main {
 	// write your code here
     }
 
+    // Complete the beautifulTriplets function below.
     static int beautifulTriplets(int d, int[] arr) {
         int count =0;
 
@@ -18,11 +19,10 @@ public class Main {
                         int ark = arr[k];
                         if( ark-arj==d){
                             count++;
+                        }
                     }
                 }
-
             }
-
         }
         return count;
     }

@@ -31,6 +31,7 @@ public class Main {
             }
         }
 
-            System.out.println(min+" "+max);
-}
+        System.out.println(min+" "+max);
+
+    }
 }

@@ -1,11 +1,8 @@
-package com.company;
+package breaking_the_records.src.com.company;
 
-public class Main {
+public class Solution {
 
-    public static void main(String[] args) {
-	// write your code here
-
-    }
+    // Complete the breakingRecords function below.
     static int[] breakingRecords(int[] scores) {
         int maxV = scores[0];
         int minV = scores[0];

@@ -7,8 +7,7 @@ public class Main {
         paint(10);
     }
 
-    public static void paint(int a){
-
+    static void staircase(int a) {
         int i =a-1;
         for(int j=a;j>0;j--){
             String ures = "";
@@ -27,10 +26,5 @@ public class Main {
             szo+=hash;
             System.out.println(szo);
         }
-
-
-
-
-
     }
 }

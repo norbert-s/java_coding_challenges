@@ -1,4 +1,4 @@
-package com.company;
+package divisible_sum_pairs.src.com.company;
 
 public class Main {
 
@@ -6,6 +6,7 @@ public class Main {
 	// write your code here
     }
 
+    // Complete the divisibleSumPairs function below.
     static int divisibleSumPairs(int n, int k, int[] ar) {
         int count = 0;
         for (int i=0;i<ar.length;i++){
